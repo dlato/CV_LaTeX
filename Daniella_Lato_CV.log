@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.13)  15 MAR 2019 13:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.13)  26 JUN 2019 21:32
 entering extended mode
 **Daniella_Lato_CV.tex
 (Daniella_Lato_CV.tex
@@ -562,33 +562,28 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 (Daniella_Lato_CV.bbl) [1
 
 {C:/Users/Daniella/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Overfull \hbox (8.63683pt too wide) in paragraph at lines 227--227
+Overfull \hbox (8.63683pt too wide) in paragraph at lines 230--230
 \OT1/cmr/bx/n/10.95 Evolution and Com-par-a-tive Ge-nomics Sub-sidy  [][][][][]
 [] 
  []
 
 [2] [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 354.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 357.
  [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 354.
- (Daniella_Lato_CV.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 354.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 354.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 357.
+ (Daniella_Lato_CV.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 357.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 357.
 Package rerunfilecheck Info: File `Daniella_Lato_CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 354.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 357.
  ) 
 Here is how much of TeX's memory you used:
- 10893 strings out of 493673
- 167585 string characters out of 3141142
- 373690 words of memory out of 3000000
- 14055 multiletter control sequences out of 15000+200000
- 15794 words of font info for 56 fonts, out of 3000000 for 9000
+ 10897 strings out of 493673
+ 167621 string characters out of 3141142
+ 373826 words of memory out of 3000000
+ 14057 multiletter control sequences out of 15000+200000
+ 15845 words of font info for 57 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  45i,6n,46p,333b,333s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Daniella/Downloads/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C:/Users
@@ -598,7 +593,7 @@ niella/Downloads/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Dani
 ella/Downloads/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/Danie
 lla/Downloads/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Daniel
 la/Downloads/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on Daniella_Lato_CV.pdf (4 pages, 99139 bytes).
+Output written on Daniella_Lato_CV.pdf (4 pages, 99797 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  16 named destinations out of 1000 (max. 500000)
