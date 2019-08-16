@@ -23,7 +23,7 @@
 \usepackage[svgnames]{xcolor}							% Colors by their 'svgnames'
 \usepackage[left=2cm,top=1cm,right=2cm,bottom=2cm,nohead,nofoot]{geometry}									% Saving trees ;-) 
 %\usepackage{url}
-\usepackage{hyperref}										% Clickable URL's
+\usepackage{hyperref}% Clickable URL's
 \usepackage{wrapfig}									% Wrap text along figures
 \usepackage{comment}
 \renewcommand{\refname}{PUBLICATIONS}
@@ -34,7 +34,12 @@
 %\usepackage{bibtex}
 %\nobibliography*
 \bibliographystyle{apa}
-
+\hypersetup{
+	colorlinks,
+	linkcolor={red!50!black},
+	citecolor={blue!50!black},
+	urlcolor={blue!80!black}
+}
 %%add a picture
 %\graphicspath{ {images/} }
 %\DeclareGraphicsExtensions{.jpg,.pdf,.png}
@@ -170,9 +175,9 @@
 \PersonalEntry{}{Hamilton}
 \PersonalEntry{}{Ontario, Canada, L8S 4L8}
 \PersonalEntry{Mobile}{(416) 806-3264}
-\PersonalEntry{E-Mail}{{\color{blue}{latodf@mcmaster.ca}}}
+\PersonalEntry{E-Mail}{{\color{blue}{\href{mailto:latodf@mcmaster.ca}{latodf@mcmaster.ca}}}}
 %\PersonalEntry{E-Mail}{\href{mailto:sbyfield@ucdavis.edu}{\color{blue}{sbyfield@ucdavis.edu}}}
-\PersonalEntry{Website}{www.github.com/dlato}
+\PersonalEntry{Website}{\href{https://github.com/dlato}{www.github.com/dlato}}
 \end{minipage}
 \begin{minipage}{0.3\textwidth}\raggedleft% adapt widths of minipages to your needs
 %\includegraphics[scale=0.025]{myphoto}
