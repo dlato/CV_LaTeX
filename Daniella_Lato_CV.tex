@@ -1,0 +1,367 @@
+% !TEX encoding = UTF-8 Unicode
+%%% LaTeX Template: Curriculum Vitae
+%%%
+%%% Source: http://www.howtotex.com/
+%%% Feel free to distribute this template, but please keep the referal to HowToTeX.com.
+%%% Date: July 2011
+
+%%% ------------------------------------------------------------
+%%% BEGIN PREAMBLE
+%%% ------------------------------------------------------------
+\documentclass[paper=a4,fontsize=11pt]{scrartcl}	 			% KOMA-article class							
+%\usepackage[english]{babel}								% English language/hyphenation
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+%\color{darkgray}
+\usepackage{framed,color}
+\usepackage{xstring}
+%\definecolor{shader}{rgb}{1,0.8,0.3}
+%\definecolor{shader}{rgb}{1,1,1}
+%\definecolor{black}{black}{0.25}
+\usepackage[protrusion=true,expansion=true]{microtype}		% Better typography
+\usepackage{amsmath,amsfonts,amsthm}					% Math packages
+\usepackage{graphicx}								% Enable pdflatex
+\usepackage[svgnames]{xcolor}							% Colors by their 'svgnames'
+\usepackage[left=2cm,top=1cm,right=2cm,bottom=2cm,nohead,nofoot]{geometry}									% Saving trees ;-) 
+%\usepackage{url}
+\usepackage{hyperref}% Clickable URL's
+\usepackage{wrapfig}									% Wrap text along figures
+\usepackage{comment}
+\renewcommand{\refname}{PUBLICATIONS}
+% Bibliography
+\usepackage{natbib}
+%\usepackage[sorting=ydnt]{biblatex}
+\usepackage{bibentry}
+%\usepackage{bibtex}
+%\nobibliography*
+\bibliographystyle{apa}
+\hypersetup{
+	colorlinks,
+	linkcolor={red!50!black},
+	citecolor={blue!50!black},
+	urlcolor={blue!80!black}
+}
+%%add a picture
+%\graphicspath{ {images/} }
+%\DeclareGraphicsExtensions{.jpg,.pdf,.png}
+
+
+
+%%% Chinese typesetting %%%%%%%%%%%
+%\usepackage{xeCJK}
+%\setCJKmainfont{STFangsong}
+%\XeTeXlinebreaklocale "zh" 
+%\XeTeXlinebreakskip = 0pt plus 1pt
+
+\frenchspacing									% Better looking spacings after periods
+\pagestyle{empty}								% No pagenumbers/headers/footers
+%\usepackage{bbding}									% Symbols
+
+
+%%% Custom sectioning (sectsty package)
+%%% ------------------------------------------------------------
+\usepackage{sectsty}							% Custom sectioning (see below)
+
+\sectionfont{%									% Change font of \section command
+	\usefont{OT1}{phv}{b}{n}%					% bch-b-n: CharterBT-Bold font
+	\sectionrule{0pt}{0pt}{-5pt}{3pt}
+	}
+
+%%% Macros
+%%% ------------------------------------------------------------
+\newlength{\spacebox}
+\settowidth{\spacebox}{8888888888}				% Box to align text
+\newcommand{\sepspace}{\vspace*{1em}}			% Vertical space macro
+
+\newcommand{\MyName}[1]{
+		\Huge \usefont{OT1}{phv}{b}{n} \hfill #1 		% Name
+		\par \normalsize \normalfont}
+		
+\newcommand{\MySlogan}[1]{
+		\large \usefont{OT1}{phv}{m}{n}\hfill \textit{#1} % Slogan (optional)
+		\par \normalsize \normalfont}
+
+\newcommand{\NewPart}[1]{\section*{\uppercase{#1}}}
+
+\newcommand{\PersonalEntry}[2]{
+		\noindent\hangindent=2em\hangafter=0 		% Indentation
+		\parbox{\spacebox}{						% Box to align text
+		\textit{#1}}								% Entry name (birth, address, etc.)
+		\hspace{1.5em} #2 \par}					% Entry value
+
+\newcommand{\SkillsEntry}[2]{						% Same as \PersonalEntry
+		\noindent\hangindent=2em\hangafter=0 		% Indentation
+		\parbox{\spacebox}{						% Box to align text
+		\textit{#1}}								% Entry name (birth, address, etc.)
+		\hspace{1.5em} #2 \par}					% Entry value	
+		
+\newcommand{\EducationEntry}[4]{
+		\noindent \textbf{#1} \hfill 					% Study
+		\colorbox{White}{%
+			\parbox{10em}{%
+			\hfill\color{Black}#2}} \par				% Duration
+		\noindent \textit{#3} \par					% School
+		\noindent\hangindent=2em\hangafter=0 \small #4 	% Description
+		\normalsize \par}
+
+\newcommand{\WorkEntry}[4]{						% Same as \EducationEntry
+		\noindent \textbf{#1} \hfill 					% Jobname
+		\colorbox{White}{\color{Black}#2} \par		% Duration
+		\noindent \textit{#3} \par					% Company
+		\noindent\hangindent=2em\hangafter=0 \small #4 	% Description
+		\normalsize \par}
+\newcommand{\RefEntry}[7]{						% Same as \EducationEntry
+		\noindent \textbf{#1} \par 					% Jobname
+		\noindent \textit{#2} \par	% Duration
+		\noindent \textit{#3} \par
+		\noindent \textit{#4} \par% Company 	% Description
+		\noindent \textit{#5} \par
+		\noindent \textit{#6} \par
+		\noindent \textit{#7} \par
+		}
+
+\newcommand{\ServiceEntry}[2]{					% Same as \EducationEntry
+		\noindent \textit{#1} \par					% Company
+		\noindent\hangindent=2em\hangafter=0 \small #2 	% Description
+		\normalsize \par}
+\newcommand{\codeEntry}[2]{						% Same as \EducationEntry
+		\noindent \textbf{#1} \hfill 					% Jobname
+		\colorbox{White}{\color{Black}#2} \par		% Duration
+		%\noindent \textit{#2} \par					% Company
+		%\noindent\hangindent=2em\hangafter=0 \small #4 	% Description
+		%\normalsize \par}
+		}
+		
+\def\FormatName#1{%
+  \def\myname{Simon Renny-Byfield}%
+  \edef\name{#1}%
+  \ifx\name\myname
+    \textbf{#1}%
+  \else
+    #1%
+  \fi
+}
+
+
+%%% ------------------------------------------------------------
+%%% BEGIN DOCUMENT
+%%% ------------------------------------------------------------
+\begin{document}
+%\bibliographystyle{nature}
+%\bibliographystyle{apalike}
+%\bibliographystyle{mystyle}
+%\begin{comment}
+%\begin{wrapfigure}{l}{0.5\textwidth}
+%	\vspace*{-2em}
+%		\includegraphics[width=0.15\textwidth]{photo}
+%\end{wrapfigure}
+%\end{comment}
+
+%\begin{shaded}\color{shader}\MyName{Simon\color{gray}Renny-Byfield}\end{shaded}
+\MyName{Daniella F. \color{gray}Lato}
+%\MySlogan{\textit{Try not to become a man of success but a man of value.}}
+%\MySlogan{\textit{---- Albert Einstein}}
+\color{black}
+\sepspace
+
+%%% Personal details
+%%% ------------------------------------------------------------
+\NewPart{Personal details}{}
+%\includegraphics{myphoto.jpg}
+%\PersonalEntry{Birth}{December 20, 1986} 
+\begin{minipage}{0.6\textwidth}\raggedright
+\PersonalEntry{Address}{Life Sciences Building Room 522}
+\PersonalEntry{}{McMaster University}
+\PersonalEntry{}{1280 Main Street West}
+\PersonalEntry{}{Hamilton}
+\PersonalEntry{}{Ontario, Canada, L8S 4L8}
+\PersonalEntry{Mobile}{(416) 806-3264}
+\PersonalEntry{E-Mail}{{\color{blue}{\href{mailto:latodf@mcmaster.ca}{latodf@mcmaster.ca}}}}
+%\PersonalEntry{E-Mail}{\href{mailto:sbyfield@ucdavis.edu}{\color{blue}{sbyfield@ucdavis.edu}}}
+\PersonalEntry{Website}{\href{https://github.com/dlato}{www.github.com/dlato}}
+\end{minipage}
+\begin{minipage}{0.3\textwidth}\raggedleft% adapt widths of minipages to your needs
+%\includegraphics[scale=0.025]{myphoto}
+\end{minipage}
+%\PersonalEntry{Webpage}{\href{https://wiki.qut.edu.au/display/cyphy/Hu+He}{\color{red}{https://wiki.qut.edu.au/display/cyphy/Hu+He}}}
+%\PersonalEntry{}{\href{http://hehuvision.blogspot.com}{\color{red}{http://hehuvision.blogspot.com}}}
+
+%%% Education %%%%%
+%%% ------------------------------------------------------------
+\NewPart{Academic Qualifications}{} 
+
+\EducationEntry{Ph.D. Candidate Bacterial Genomics and Bioinformatics}{Present}{McMaster University, Hamilton, ON}{Supervisors: Professor G. Brian Golding\\
+Thesis Title: Spatial Patterns of Substitutions in Bacterial Genomes}
+\sepspace
+
+\EducationEntry{B.Sc Honors With Distinction Biology and Mathematics}{2011-2015}{McMaster University, Hamilton, ON}{Supervisors: Professor G. Brian Golding\\
+	Honors Thesis Title: Substitution Rates in Relation to Position on the Replicons of \textit{Sinorhizobium}}
+
+\NewPart{Teaching}{}
+\WorkEntry{Teaching Assistant}{Department of Biology, McMaster University}{Introduction to Bioinformatics}{2015-Present}
+\WorkEntry{Teaching Assistant}{Department of Biology, McMaster University}{Genetics}{2015-Presant}
+\WorkEntry{Guest Lecture}{Department of Biology, McMaster University}{Molecular Evolution}{2018}
+\WorkEntry{Teaching Assistant}{Department of Mathematics and Statistics, McMaster University}{Differential Equations}{2014}
+%\WorkEntry{Guest Lecturer}{Queen Mary University of London}{MSc Research Seminar}{2012}
+
+
+%\NewPart{Publications}{}
+%\renewcommand\refname{\vskip -1cm}
+%\bibliographystyle{siam}
+\nocite{*}
+
+\bibliography{C:/Users/synch/Documents/Bib/My_Publications}
+%\bibliography{C:/Users/Daniella/Documents/Bib/My_Publications}
+\bibliographystyle{unsrt}
+%\bibliographystyle{plain}
+%\printbibliography
+
+%\vspace{7 mm}
+%\text{\textsuperscript{\dag} joint first author}
+
+\NewPart{Conferences/Panel Discussions}
+\WorkEntry{Poster Presentation}{Mutation Rate Evolution}{Society for Molecular Biology and Evolution Conference}{Manchester, UK 2019}
+\WorkEntry{Oral Presentation}{Evolutionary Biology / Molecular Evolution}{Ontario Ecology, Ethology, and Evolution Colloquium}{McMaster University, Hamilton, ON 2019}
+\WorkEntry{Oral Presentation}{Evolution and Comparative Genomics COSI}{Intelligent Systems for Molecular Biology Conference}{Chicago, IL 2018}
+\WorkEntry{Panellist}{EngSci Girl}{Women In Science and Engineering (WISE)}{McMaster University, Hamilton, ON 2018}
+
+
+\NewPart{Professional Experience}{}
+
+\WorkEntry{Undergraduate Research Assistant}{Biology, McMaster University, Hamilton, ON}{Supervisor: Dr. G. Brian Golding}{2014}
+\WorkEntry{Undergraduate Research Assistant}{Surgical Oncology, University of Toronto, Toronto, ON}{Supervisor: Dr. Usmaan Hameed}{2013}
+\sloppy\WorkEntry{Undergraduate Research Assistant}{Motherisk, The Hospital for Sick Children, Toronto, ON}{Supervisor: Dr. Myla E. Moretti}{2012}
+
+\NewPart{Honors and Awards}{}
+\WorkEntry{Biology Travel Scholarship}{Department of Biology, McMaster University}{\textdollar{500CAD}}{2019}
+\WorkEntry{GSA Travel Assistance Award}{School of Graduate Studies, McMaster University}{\textdollar{500CAD}}{2019}
+\WorkEntry{Biology Travel Scholarship}{Department of Biology, McMaster University}{\textdollar{500CAD}}{2018}
+\WorkEntry{Therese Quigley Award of Excellence for Graduate Student Leadership in Athletics}{Graduate Student Recognition Awards, McMaster University}{\textdollar{200CAD}}{2018}
+ \WorkEntry{Evolution and Comparative Genomics Subsidy}{International Society for Computational Biology}{\textdollar{475USD}}{2018}
+\WorkEntry{Monica Scarabello Memorial Bursary}{McMaster University}{\textdollar{1,000CAD}}{2018}
+\WorkEntry{RTO/ERO Scholarship}{Retired Teachers of Ontario (RTO)}{\textdollar{1,500CAD}}{2017}
+\WorkEntry{Graduate Scholarship}{McMaster University}{\textdollar{691CAD} \textit{per annum}}{2015 - 2018}
+\WorkEntry{CUSSL All Canadian Award for Outstanding Average While on a Competitive University Sports Team}{Canadian University Synchronized Swimming League (CUSSL)}{}{2012-2019}
+\WorkEntry{McMaster Marauder Scholar}{McMaster University Athletics Department}{}{2012 - 2019}
+\WorkEntry{Monica Scarabello Memorial Bursary}{McMaster University}{\textdollar{500CAD}}{2016}
+\WorkEntry{Robert John Morris Graduate Studies Bursary}{McMaster University}{\textdollar{1,500CAD}}{2016}
+\WorkEntry{McMaster Synchronized Swimming Club VIP}{McMaster University}{}{2016}
+\WorkEntry{Graduate Entrance Scholarship}{McMaster University}{\textdollar{1,500CAD}}{2015}
+\WorkEntry{Dr. Joachim Sparkuhl Undergraduate Research Award in Genomics, Genetics and Other Biological Sciences}{McMaster University}{\textdollar{7,680CAD}}{2014}
+\WorkEntry{Dean's Honor List}{McMaster University}{}{2012 - 2015}
+\WorkEntry{Undergraduate Entrance Scholarship}{McMaster University}{\textdollar{750CAD}}{2011}
+
+\NewPart{Coding and High Performance Computing}
+\codeEntry{Perl}{}
+\codeEntry{R}{}
+\codeEntry{tcsh}{}
+\codeEntry{Command line}{}
+\codeEntry{\LaTeX}{}
+\codeEntry{Python}{}
+%\NewPart{Peer review}{}
+%Heredity\\
+%BMC Genomics\\
+%PLOS One\\
+%Botanical Journal of the Linnean Society\\
+%BMC Plant Biology\\
+%New Phytologist
+
+%\NewPart{References}
+%%\address{42 Apartment complex}{Street}{City\\Country}
+%\RefEntry{Dr. Jeffrey Ross-Ibarra}{University of California, Davis}{Department of Plant Sciences}{Robbins Hall}{Davis CA, 95616}{rossibarra@ucdavis.edu}{530-752-1152\\}
+%\RefEntry{Prof. Jonathan F. Wendel}{Iowa State University}{Department of Ecology, Evolution and Organismal Biology}{Bessey Hall}{Ames IA, 50010}{jfw@iastate.edu}{(515) 294-717\\}
+%\RefEntry{Prof. Andrew R. Leitch}{Queen Mary University of London}{Fogg Building}{School of Biological and Chemical Sciences}{London UK, E1 4NS}{a.r.leitch@qmul.ac.uk}{+44 (0)20 7882 6483\\}
+%%\WorkEntry{Post-Doctoral Research}{Queen Mary University of London}{Supervisor: Prof. Andrew R. Leitch}{2012}
+%%%% Publications
+%%% ------------------------------------------------------------
+%\NewPart{Publications}{}
+%\begin{enumerate}
+%\item \bibentry{he2012measuring}
+%\item \bibentry{he2011towards}
+%\item \bibentry{he2010graphcut}
+%\item \bibentry{mckinnon2011towards}
+%\item \bibentry{warren2012large}
+%\item \bibentry{warren2010unaided}
+%\end{enumerate}
+%
+%{\color{red}{\textit{Manuscripts under Review}:}}
+%\begin{enumerate}
+%\item \bibentry{hu2013ietcv}
+%\item \bibentry{hu2013sensors}
+%\item \bibentry{hu2013aim}
+%\item \bibentry{hu2013IROS}
+%\item \bibentry{inkyu2013aim}
+%\item \bibentry{Ferrari2013mee}
+%\end{enumerate}
+%
+%
+%%%% Work experience
+%%%% ------------------------------------------------------------
+\NewPart{Non-Academic Work Experience}{}
+\WorkEntry{Tour Guide}{Sep 2017 - Present}{McMaster University, Hamilton}{}
+\WorkEntry{Information Service Attendant}{May 2015 - Aug 2016}{Recreation, City of Markham, Markham}{}
+\WorkEntry{Education Employee}{Jun 2015 - Aug 2016}{Education, Toronto Zoo, Scarborough}{}
+\WorkEntry{Camp Counsellor and Supervisor}{Jun 2013 - Aug 2013}{Recreation, City of Markham, Markham}{}
+%\WorkEntry{Research Assistant}{Aug 2009 - Dec 2010}{The University of Queensland}{Working for CRCMining on multiple sensors fusion using EKF}
+%\sepspace
+%\WorkEntry{Teaching Assistant}{Mar 2010 - Dec 2010}{The University of Queensland}{\textbf{MECH3750} Numerical Analysis and Python Programming\\
+%\textbf{MECH2301/2300} Structure Mechanics}
+%\sepspace
+%\WorkEntry{Mentoring}{Sep 2008 - Jun 2009}{Central South University}{Mentoring 30 first year undergraduates in College of Mechanical and Electrical Engineering}
+%
+%%%%%%% Volunteering
+\NewPart{Volunteer Experience}{}
+\WorkEntry{Novice Coach}{2019 - 2020}{McMaster Synchronized Swimming Club, McMaster University, Hamilton}{}
+\WorkEntry{Let's Talk Science}{2017 - Present}{McMaster University, Let's Talk Science, Hamilton}{}
+\WorkEntry{SNAP (Special Needs Assistance Program)}{2016 - 2019}{McMaster University, Hamilton}{}
+\WorkEntry{Vice President}{2014 - 2015, 2018 - 2019}{McMaster Synchronized Swimming Club, McMaster University, Hamilton}{}
+\WorkEntry{Judge for Biology Undergraduate Symposium}{2017 - 2018}{Department of Biology, McMaster University, Hamilton, ON}{}
+\WorkEntry{President}{2015 - 2018}{McMaster Synchronized Swimming Club, McMaster University, Hamilton}{}
+\WorkEntry{Workshop Leader}{2017}{Plant Molecular Biology Lab Workshop, Department of Biology, McMaster University}{}
+\WorkEntry{Software Carpentry Leader}{2017}{McMaster University, Hamilton}{}
+\WorkEntry{BGSS (Biology Graduate Society)}{2016 - 2017}{Department of Biology, McMaster University, Hamilton}{}
+\WorkEntry{Meet Manager}{2016}{McMaster Synchronized Swimming Club, McMaster University, Hamilton}{}
+\WorkEntry{McMaster Arts for Children}{2014 - 2015}{McMaster University, Hamilton}{}
+\WorkEntry{McMaster Athletes Care}{2013 - 2014}{McMaster Synchronized Swimming Club, McMaster University, Hamilton}{}
+
+%%%% Skills
+%%%% ------------------------------------------------------------
+%\NewPart{Skills}{}
+%\SkillsEntry{Languages}{English (fluent)}
+%\SkillsEntry{}{\textbf{CET\footnote{CET: Chinese College English Test}-4, CET-6 and IELTS\footnote{IELTS: International English Language Testing System} 6.5}}
+%\SkillsEntry{Programming}{\textsc{Matlab}, \LaTeX, \textsc{C++}, \textsc{Python}}
+%\SkillsEntry{Softwares}{Solid Edge, Solid Works, AutoCAD, Final Cut Pro}
+%\SkillsEntry{OS}{Windows, Linux, Mac OS X}
+%
+%%%% Services
+%%%% ------------------------------------------------------------
+%\NewPart{Academic Services}{}
+%\ServiceEntry{Conference Reviewer}{IEEE/RSJ International Conference on Intelligent Robots and Systems (\textbf{IROS}) 2013\\
+%IAPR International Conference on Pattern Recognition (\textbf{ICPR}) 2012\\
+%IEEE International Conference of Robotics and Automation (\textbf{ICRA}) 2011,2012\\
+%IEEE Intelligent Vehicles Symposium (\textbf{IV}) 2012\\
+%Australasian Conference on Robotics and Automation (\textbf{ACRA}) 2010\\
+%Marine Robotics Workshop at Robotics: Science and Systems (\textbf{RSS}) 2011}
+%
+%
+%%%% Honors and Awards
+%%%% ------------------------------------------------------------
+%\NewPart{Honors \& Awards}{}
+%\begin{itemize}
+%\item Vice-Chancellor Initiative Top Up Scholarship funded by QUT (2011 - 2012)
+%\item Queensland University of Technology Tuition Fee Waiver Scholarship (2011 - 2013)
+%\item The University of Queensland Research Scholar scholarship (2009 - 2010)
+%\item The University of Queensland International Research Tuition Awards (2009 - 2010)
+%\item Chinese Scholarship Council (CSC) Scholarship (2009-2013)
+%\item State Scholarship, Ministry of Education of China (2007)
+%\item Tanghan Scholarship funded by Guangxi Tanghan Zinc \& Indium Co., Ltd (2007)
+%\item First-Class Scholarship for Outstanding Student funded by CSU (2005-2007)
+%\end{itemize}
+%
+%
+%%%% References
+%%%% ------------------------------------------------------------
+%\NewPart{References}{}
+%Available upon request
+%
+%\nobibliography{hu}
+\end{document}
