@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.10.2)  6 OCT 2019 12:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.10.2)  7 NOV 2019 12:29
 entering extended mode
 **./Daniella_Lato_CV.tex
 (Daniella_Lato_CV.tex
@@ -726,7 +726,7 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 ne 234.
 
 
-Overfull \hbox (8.63683pt too wide) in paragraph at lines 239--239
+Overfull \hbox (8.63683pt too wide) in paragraph at lines 240--240
 \OT1/cmr/bx/n/10.95 Evolution and Com-par-a-tive Ge-nomics Sub-sidy  [][][][][]
 [] 
  []
@@ -738,7 +738,7 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 253.
+ne 254.
 
 
 Class scrartcl Warning: incompatible usage of \@ssect detected.
@@ -746,7 +746,7 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 299.
+ne 300.
 
 
 Class scrartcl Warning: incompatible usage of \@ssect detected.
@@ -754,22 +754,22 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 312.
+ne 313.
 
 [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 367.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 368.
  [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 367.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 368.
  (Daniella_Lato_CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 367.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 367.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 368.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 368.
 Package rerunfilecheck Info: File `Daniella_Lato_CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 367.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 368.
  ) 
 Here is how much of TeX's memory you used:
  11777 strings out of 492895
- 191586 string characters out of 3123735
+ 190949 string characters out of 3123735
  448178 words of memory out of 3000000
  15495 multiletter control sequences out of 15000+200000
  15845 words of font info for 57 fonts, out of 3000000 for 9000
@@ -783,7 +783,7 @@ ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/synch/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/synch/AppData/Loca
 l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/synch
 /AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on Daniella_Lato_CV.pdf (4 pages, 100437 bytes).
+Output written on Daniella_Lato_CV.pdf (4 pages, 100453 bytes).
 PDF statistics:
  64 PDF objects out of 1000 (max. 8388607)
  16 named destinations out of 1000 (max. 500000)
