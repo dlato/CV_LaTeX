@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.24)  21 MAY 2020 20:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.24)  21 MAY 2020 20:56
 entering extended mode
 **./Daniella_Lato_Resume.tex
 (Daniella_Lato_Resume.tex
@@ -1351,29 +1351,6 @@ Package biblatex Warning: Type 'inproceedings' not found on input line 167.
 
 LaTeX Warning: Empty bibliography on input line 167.
 
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 175.
-LaTeX Font Info:    Font shape `T1/lato-TLF/m/it' will be
-(Font)              scaled to size 12.0pt on input line 175.
-
-("C:\Users\synch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fontawesome5\ufont
-awesomefree3.fd")
-Overfull \hbox (1.59999pt too wide) in paragraph at lines 181--181
-[]|[]| 
- []
-
-
-("C:\Users\synch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fontawesome5\ufont
-awesomefree1.fd")
-Overfull \hbox (1.59999pt too wide) in paragraph at lines 185--185
-[]|[]| 
- []
-
-
-Overfull \hbox (1.59999pt too wide) in paragraph at lines 189--189
-[]|[]| 
- []
-
 
 Overfull \hbox (1.0694pt too wide) in paragraph at lines 191--191
 []\T1/RobotoSlab-TLF/bold/n/17.28 PROGRAMMING SKILLS[]  
@@ -1388,7 +1365,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 209--211
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
 (Font)              scaled to size 9.0pt on input line 241.
-[1
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
+nput line 241.
+
+("C:\Users\synch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fontawesome5\ufont
+awesomefree1.fd") [1
 
  <./Globe_High.png (PNG copy)>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 246.
@@ -1413,33 +1394,31 @@ Package logreq Info: Writing requests to 'Daniella_Lato_Resume.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 246.
  ) 
 Here is how much of TeX's memory you used:
- 39095 strings out of 481511
- 758212 string characters out of 2911892
- 1367581 words of memory out of 3000000
- 53750 multiletter control sequences out of 15000+200000
- 844407 words of font info for 62 fonts, out of 3000000 for 9000
+ 39067 strings out of 481511
+ 757470 string characters out of 2911892
+ 1357572 words of memory out of 3000000
+ 53731 multiletter control sequences out of 15000+200000
+ 776686 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,10n,96p,1147b,2453s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 72i,8n,96p,1147b,2341s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/synch/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/fontawesome
 5/fa5free1.enc}{C:/Users/synch/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvip
-s/fontawesome5/fa5free3.enc}{C:/Users/synch/AppData/Local/Programs/MiKTeX 2.9/f
-onts/enc/dvips/lato/a_cl4kdn.enc}{C:/Users/synch/AppData/Local/Programs/MiKTeX 
-2.9/fonts/enc/dvips/lato/a_rt66h3.enc}{C:/Users/synch/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{C:/Users/synch/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/enc/dvips/fontawesome5/fa5free2.enc}{C:/Users/syn
-ch/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/fontawesome5/fa5free0.enc}
-{C:/Users/synch/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/roboto/rbto_j
-2bk2t.enc}<C:/Users/synch/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-fontawesome5/FontAwesome5Brands-Regular.pfb><C:/Users/synch/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/U
-sers/synch/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/typoland/lato/Lato-Bol
-d.pfb><C:/Users/synch/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/typoland/la
-to/Lato-Italic.pfb><C:/Users/synch/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/typoland/lato/Lato-Regular.pfb><C:/Users/synch/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/google/roboto/RobotoSlab-Bold.pfb>
-Output written on Daniella_Lato_Resume.pdf (1 page, 218687 bytes).
+s/lato/a_rt66h3.enc}{C:/Users/synch/AppData/Local/Programs/MiKTeX 2.9/fonts/enc
+/dvips/fontawesome5/fa5brands0.enc}{C:/Users/synch/AppData/Local/Programs/MiKTe
+X 2.9/fonts/enc/dvips/fontawesome5/fa5free2.enc}{C:/Users/synch/AppData/Local/P
+rograms/MiKTeX 2.9/fonts/enc/dvips/lato/a_cl4kdn.enc}{C:/Users/synch/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/enc/dvips/fontawesome5/fa5free0.enc}{C:/Users/syn
+ch/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/roboto/rbto_j2bk2t.enc}<C:
+/Users/synch/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/fontawesome5/
+FontAwesome5Brands-Regular.pfb><C:/Users/synch/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/synch/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/typoland/lato/Lato-Bold.pfb><C:/Use
+rs/synch/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/typoland/lato/Lato-Regul
+ar.pfb><C:/Users/synch/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/google/rob
+oto/RobotoSlab-Bold.pfb>
+Output written on Daniella_Lato_Resume.pdf (1 page, 196390 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
+ 67 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
  50 words of extra memory for PDF output out of 10000 (max. 10000000)
 
