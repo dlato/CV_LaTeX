@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.24)  21 MAY 2020 20:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.24)  21 MAY 2020 20:58
 entering extended mode
 **./Daniella_Lato_Resume.tex
 (Daniella_Lato_Resume.tex
@@ -1133,33 +1133,33 @@ Package: lato 2019/06/20 Style file for Lato.
 (Daniella_Lato_Resume.aux)
 \openout1 = `Daniella_Lato_Resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 83.
-LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 84.
+LaTeX Font Info:    ... okay on input line 84.
 LaTeX Font Info:    Trying to load font information for T1+lato-TLF on input li
-ne 83.
+ne 84.
 
 ("C:\Users\synch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lato\t1lato-tlf.fd
 "
 File: T1lato-TLF.fd 2019/06/24 Font definitions for T1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 83.
+(Font)              scaled to size 10.0pt on input line 84.
  ABD: EveryShipout initializing macros
 ("C:\Users\synch\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
 df.mkii"
@@ -1183,7 +1183,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
 \AtBeginShipoutBox=\box78
-Package hyperref Info: Link coloring OFF on input line 83.
+Package hyperref Info: Link coloring OFF on input line 84.
 
 ("C:\Users\synch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.s
 ty"
@@ -1199,9 +1199,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count435
 )
-LaTeX Info: Redefining \ref on input line 83.
-LaTeX Info: Redefining \pageref on input line 83.
-LaTeX Info: Redefining \nameref on input line 83.
+LaTeX Info: Redefining \ref on input line 84.
+LaTeX Info: Redefining \pageref on input line 84.
+LaTeX Info: Redefining \nameref on input line 84.
  (Daniella_Lato_Resume.out) (Daniella_Lato_Resume.out)
 \@outlinefile=\write8
 \openout8 = `Daniella_Lato_Resume.out'.
@@ -1242,7 +1242,7 @@ LaTeX Info: Redefining \nameref on input line 83.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 83.
+LaTeX Info: Redefining \selectfont on input line 84.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
@@ -1259,14 +1259,14 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Daniella_Lato_Resume.bbl' not found.
 
 No file Daniella_Lato_Resume.bbl.
-Package biblatex Info: Reference section=0 on input line 83.
-Package biblatex Info: Reference segment=0 on input line 83.
+Package biblatex Info: Reference section=0 on input line 84.
+Package biblatex Info: Reference segment=0 on input line 84.
 \c@mv@tabular=\count436
 \c@mv@boldtabular=\count437
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 24.88pt on input line 111.
+(Font)              scaled to size 24.88pt on input line 112.
 LaTeX Font Info:    Trying to load font information for T1+RobotoSlab-TLF on in
-put line 111.
+put line 112.
 
 ("C:\Users\synch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/roboto\t1robotosla
 b-tlf.fd"
@@ -1274,109 +1274,109 @@ File: T1RobotoSlab-TLF.fd 2019/12/11 (autoinst) Font definitions for T1/RobotoS
 lab-TLF.
 )
 LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/m/n' aliased to
-(Font)              `T1/RobotoSlab-TLF/regular/n' on input line 111.
+(Font)              `T1/RobotoSlab-TLF/regular/n' on input line 112.
 LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/b/n' aliased to
-(Font)              `T1/RobotoSlab-TLF/bold/n' on input line 111.
+(Font)              `T1/RobotoSlab-TLF/bold/n' on input line 112.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 111.
+(Font)              scaled to size 12.0pt on input line 112.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 111.
+(Font)              scaled to size 12.0pt on input line 112.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 111.
+(Font)              scaled to size 8.0pt on input line 112.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
-nput line 111.
+nput line 112.
 
 ("C:\Users\synch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fontawesome5\ufont
 awesomefree0.fd")
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 111.
+nput line 112.
 
 ("C:\Users\synch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fontawesome5\ufont
 awesomefree2.fd")
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
- input line 111.
+ input line 112.
 
 ("C:\Users\synch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fontawesome5\ufont
 awesomebrands0.fd")
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <8> not a
 vailable
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 111.
+n input line 112.
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 111.
+(Font)              <7> on input line 112.
 <<omx.cmap>>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 111.
+(Font)              <5> on input line 112.
 <Globe_High.png, id=17, 803.0pt x 803.0pt>
 File: Globe_High.png Graphic file (type png)
 <use Globe_High.png>
-Package pdftex.def Info: Globe_High.png  used on input line 111.
+Package pdftex.def Info: Globe_High.png  used on input line 112.
 (pdftex.def)             Requested size: 802.99805pt x 802.99805pt.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 121.
+(Font)              scaled to size 17.28pt on input line 122.
 LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/m/n' aliased to
-(Font)              `T1/RobotoSlab-TLF/regular/n' on input line 121.
+(Font)              `T1/RobotoSlab-TLF/regular/n' on input line 122.
 LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/b/n' aliased to
-(Font)              `T1/RobotoSlab-TLF/bold/n' on input line 121.
+(Font)              `T1/RobotoSlab-TLF/bold/n' on input line 122.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 123.
+(Font)              scaled to size 10.0pt on input line 124.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 123.
+(Font)              scaled to size 9.0pt on input line 124.
 LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input l
-ine 125.
+ine 126.
 
 ("C:\Users\synch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lato\ts1lato-tlf.f
 d"
 File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 125.
+(Font)              scaled to size 9.0pt on input line 126.
 
 
-Package biblatex Warning: Type 'book' not found on input line 159.
+Package biblatex Warning: Type 'book' not found on input line 160.
 
 
-LaTeX Warning: Empty bibliography on input line 159.
+LaTeX Warning: Empty bibliography on input line 160.
 
 
-Package biblatex Warning: Type 'article' not found on input line 163.
+Package biblatex Warning: Type 'article' not found on input line 164.
 
 
-LaTeX Warning: Empty bibliography on input line 163.
+LaTeX Warning: Empty bibliography on input line 164.
 
 
-Package biblatex Warning: Type 'inproceedings' not found on input line 167.
+Package biblatex Warning: Type 'inproceedings' not found on input line 168.
 
 
-LaTeX Warning: Empty bibliography on input line 167.
+LaTeX Warning: Empty bibliography on input line 168.
 
 
-Overfull \hbox (1.0694pt too wide) in paragraph at lines 191--191
+Overfull \hbox (1.0694pt too wide) in paragraph at lines 192--192
 []\T1/RobotoSlab-TLF/bold/n/17.28 PROGRAMMING SKILLS[]  
  []
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 196.
+(Font)              scaled to size 7.0pt on input line 197.
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--211
+Underfull \hbox (badness 10000) in paragraph at lines 210--212
  
  []
 
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 241.
+(Font)              scaled to size 9.0pt on input line 242.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 241.
+nput line 242.
 
 ("C:\Users\synch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fontawesome5\ufont
 awesomefree1.fd") [1
 
  <./Globe_High.png (PNG copy)>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 246.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 246.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 247.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 247.
  (Daniella_Lato_Resume.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 246.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 246.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 247.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 247.
 Package rerunfilecheck Info: File `Daniella_Lato_Resume.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1391,12 +1391,12 @@ Package biblatex Warning: Please (re)run Biber on the file:
 Package logreq Info: Writing requests to 'Daniella_Lato_Resume.run.xml'.
 \openout1 = `Daniella_Lato_Resume.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 246.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 247.
  ) 
 Here is how much of TeX's memory you used:
  39067 strings out of 481511
- 757470 string characters out of 2911892
- 1357572 words of memory out of 3000000
+ 757318 string characters out of 2911892
+ 1357382 words of memory out of 3000000
  53731 multiletter control sequences out of 15000+200000
  776686 words of font info for 56 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191

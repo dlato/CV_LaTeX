@@ -79,7 +79,7 @@
       <file>Daniella_Lato_Resume.bcf</file>
     </requires>
     <requires type="editable">
-      <file>C:/Users/synch/Documents/Bib/My_Publications.bib</file>
+      <file>sample.bib</file>
     </requires>
   </external>
 </requests>
