@@ -27,6 +27,7 @@
 \usepackage{wrapfig}									% Wrap text along figures
 \usepackage{comment}
 \renewcommand{\refname}{PUBLICATIONS}
+\usepackage{multicol}
 % Bibliography
 \usepackage{natbib}
 %\usepackage[sorting=ydnt]{biblatex}
@@ -177,7 +178,8 @@
 \PersonalEntry{Mobile}{(416) 806-3264}
 \PersonalEntry{E-Mail}{{\color{blue}{\href{mailto:latodf@mcmaster.ca}{latodf@mcmaster.ca}}}}
 %\PersonalEntry{E-Mail}{\href{mailto:sbyfield@ucdavis.edu}{\color{blue}{sbyfield@ucdavis.edu}}}
-\PersonalEntry{Website}{\href{https://github.com/dlato}{www.github.com/dlato}}
+\PersonalEntry{GitHub}{\href{https://github.com/dlato}{www.github.com/dlato}}
+\PersonalEntry{LinkedIn}{\href{https://www.linkedin.com/in/daniella-lato-672729163/}{www.linkedin.com/in/daniella-lato-672729163}}
 \end{minipage}
 \begin{minipage}{0.3\textwidth}\raggedleft% adapt widths of minipages to your needs
 %\includegraphics[scale=0.025]{myphoto}
@@ -199,8 +201,11 @@ Thesis Title: Spatial Patterns of Molecular Trends in Bacterial Genomes}
 
 
 \NewPart{Coding and High Performance Computing}
+\begin{multicols}{2}
+
 \codeEntry{Python}{}
 \codeEntry{R}{}
+\codeEntry{Shiny}{}
 \codeEntry{\LaTeX}{}
 \codeEntry{Perl}{}
 \codeEntry{Unix command line}{}
@@ -208,6 +213,8 @@ Thesis Title: Spatial Patterns of Molecular Trends in Bacterial Genomes}
 \codeEntry{bash}{}
 \codeEntry{zcsh}{}
 \codeEntry{GitHub}{}
+\end{multicols}
+
 
 
 
@@ -222,11 +229,20 @@ Thesis Title: Spatial Patterns of Molecular Trends in Bacterial Genomes}
 %\bibliographystyle{plain}
 %\printbibliography
 
+\NewPart{Professional Experience}{}
+
+\WorkEntry{Undergraduate Research Assistant}{Biology, McMaster University, Hamilton, ON}{Supervisor: Dr. G. Brian Golding}{2014}
+\WorkEntry{Undergraduate Research Assistant}{Surgical Oncology, University of Toronto, Toronto, ON}{Supervisor: Dr. Usmaan Hameed}{2013}
+\sloppy\WorkEntry{Undergraduate Research Assistant}{Motherisk, The Hospital for Sick Children, Toronto, ON}{Supervisor: Dr. Myla E. Moretti}{2012}
+
+
 
 \NewPart{Teaching}{}
 \WorkEntry{Teaching Assistant}{Department of Biology, McMaster University}{Introduction to Bioinformatics}{2015-Present}
 \WorkEntry{Teaching Assistant}{Department of Biology, McMaster University}{Genetics}{2015-Present}
 \WorkEntry{Guest Lecture}{Department of Biology, McMaster University}{Molecular Evolution}{2018}
+\WorkEntry{Workshop Leader}{2017}{Plant Molecular Biology Lab Workshop, Department of Biology, McMaster University}{}
+\WorkEntry{Software Carpentry Leader}{2017}{McMaster University, Hamilton}{}
 \WorkEntry{Teaching Assistant}{Department of Mathematics and Statistics, McMaster University}{Differential Equations}{2014}
 %\WorkEntry{Guest Lecturer}{Queen Mary University of London}{MSc Research Seminar}{2012}
 
@@ -237,14 +253,11 @@ Thesis Title: Spatial Patterns of Molecular Trends in Bacterial Genomes}
 \WorkEntry{Oral Presentation}{Evolution and Comparative Genomics COSI}{Intelligent Systems for Molecular Biology Conference}{Chicago, IL 2018}
 \WorkEntry{Panellist}{EngSci Girl}{Women In Science and Engineering (WISE)}{McMaster University, Hamilton, ON 2018}
 
-\NewPart{Professional Experience}{}
-
-\WorkEntry{Undergraduate Research Assistant}{Biology, McMaster University, Hamilton, ON}{Supervisor: Dr. G. Brian Golding}{2014}
-\WorkEntry{Undergraduate Research Assistant}{Surgical Oncology, University of Toronto, Toronto, ON}{Supervisor: Dr. Usmaan Hameed}{2013}
-\sloppy\WorkEntry{Undergraduate Research Assistant}{Motherisk, The Hospital for Sick Children, Toronto, ON}{Supervisor: Dr. Myla E. Moretti}{2012}
-
 \NewPart{Honors and Awards}{}
 \WorkEntry{Dr. Edna Guest Award}{Annual Athletic Awards, McMaster University}{\textdollar{1,000CAD}}{2020}
+\WorkEntry{Graduate Scholarship}{McMaster University}{\textdollar{691CAD} \textit{per annum}}{2015 - 2020}
+\WorkEntry{CUSSL All Canadian Award for Outstanding Average While on a Competitive University Sports Team}{Canadian University Synchronized Swimming League (CUSSL)}{}{2012-2020}
+\WorkEntry{McMaster Marauder Scholar}{McMaster University Athletics Department}{}{2012 - 2020}
 \WorkEntry{Therese Quigley Award of Excellence for Graduate Student Leadership in Athletics}{Graduate Student Recognition Awards, McMaster University}{\textdollar{200CAD}}{2019}
 \WorkEntry{Biology Travel Scholarship}{Department of Biology, McMaster University}{\textdollar{500CAD}}{2019}
 \WorkEntry{GSA Travel Assistance Award}{School of Graduate Studies, McMaster University}{\textdollar{500CAD}}{2019}
@@ -253,9 +266,6 @@ Thesis Title: Spatial Patterns of Molecular Trends in Bacterial Genomes}
  \WorkEntry{Evolution and Comparative Genomics Subsidy}{International Society for Computational Biology}{\textdollar{475USD}}{2018}
 \WorkEntry{Monica Scarabello Memorial Bursary}{McMaster University}{\textdollar{1,000CAD}}{2018}
 \WorkEntry{RTO/ERO Scholarship}{Retired Teachers of Ontario (RTO)}{\textdollar{1,500CAD}}{2017}
-\WorkEntry{Graduate Scholarship}{McMaster University}{\textdollar{691CAD} \textit{per annum}}{2015 - 2018}
-\WorkEntry{CUSSL All Canadian Award for Outstanding Average While on a Competitive University Sports Team}{Canadian University Synchronized Swimming League (CUSSL)}{}{2012-2019}
-\WorkEntry{McMaster Marauder Scholar}{McMaster University Athletics Department}{}{2012 - 2019}
 \WorkEntry{Monica Scarabello Memorial Bursary}{McMaster University}{\textdollar{500CAD}}{2016}
 \WorkEntry{Robert John Morris Graduate Studies Bursary}{McMaster University}{\textdollar{1,500CAD}}{2016}
 \WorkEntry{McMaster Synchronized Swimming Club VIP}{McMaster University}{}{2016}
@@ -305,8 +315,8 @@ Thesis Title: Spatial Patterns of Molecular Trends in Bacterial Genomes}
 %%%% ------------------------------------------------------------
 \NewPart{Non-Academic Work Experience}{}
 \WorkEntry{Tour Guide}{Sep 2017 - Present}{McMaster University, Hamilton}{}
-%\WorkEntry{Information Service Attendant}{May 2015 - Aug 2016}{Recreation, City of Markham, Markham}{}
-%\WorkEntry{Education Employee}{Jun 2015 - Aug 2016}{Education, Toronto Zoo, Scarborough}{}
+\WorkEntry{Information Service Attendant}{May 2015 - Aug 2016}{Recreation, City of Markham, Markham}{}
+\WorkEntry{Education Employee}{Jun 2015 - Aug 2016}{Education, Toronto Zoo, Scarborough}{}
 %\WorkEntry{Camp Counsellor and Supervisor}{Jun 2013 - Aug 2013}{Recreation, City of Markham, Markham}{}
 
 
@@ -325,8 +335,6 @@ Thesis Title: Spatial Patterns of Molecular Trends in Bacterial Genomes}
 \WorkEntry{Vice President}{2014 - 2015, 2018 - 2019}{McMaster Synchronized Swimming Club, McMaster University, Hamilton}{}
 \WorkEntry{Judge for Biology Undergraduate Symposium}{2017 - 2018}{Department of Biology, McMaster University, Hamilton, ON}{}
 \WorkEntry{President}{2015 - 2018}{McMaster Synchronized Swimming Club, McMaster University, Hamilton}{}
-\WorkEntry{Workshop Leader}{2017}{Plant Molecular Biology Lab Workshop, Department of Biology, McMaster University}{}
-\WorkEntry{Software Carpentry Leader}{2017}{McMaster University, Hamilton}{}
 \WorkEntry{BGSS (Biology Graduate Society)}{2016 - 2017}{Department of Biology, McMaster University, Hamilton}{}
 \WorkEntry{Meet Manager}{2016}{McMaster Synchronized Swimming Club, McMaster University, Hamilton}{}
 \WorkEntry{McMaster Arts for Children}{2014 - 2015}{McMaster University, Hamilton}{}
