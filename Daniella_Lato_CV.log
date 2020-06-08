@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.24)  5 JUN 2020 12:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.24)  8 JUN 2020 19:30
 entering extended mode
 **./Daniella_Lato_CV.tex
 (Daniella_Lato_CV.tex
@@ -797,7 +797,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 173
+LaTeX Font Info:    Trying to load font information for U+msa on input line 178
 .
 ("C:\Users\synch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -806,7 +806,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 fg"
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 173
+LaTeX Font Info:    Trying to load font information for U+msb on input line 178
 .
 
 ("C:\Users\synch\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
@@ -850,9 +850,6 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              This could result in several error messages on input li
 ne 232.
 
-[1
-
-{C:/Users/synch/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
@@ -861,6 +858,9 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              This could result in several error messages on input li
 ne 240.
 
+[1
+
+{C:/Users/synch/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
@@ -916,7 +916,7 @@ Here is how much of TeX's memory you used:
  28498 multiletter control sequences out of 15000+200000
  544414 words of font info for 66 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,6n,53p,10168b,323s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 48i,6n,53p,10168b,325s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\synch\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
 tcti1095.pk>{C:/Users/synch/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/b
 ase/8r.enc}<C:/Users/synch/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
@@ -925,7 +925,7 @@ ase/8r.enc}<C:/Users/synch/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 eX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/synch/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/synch/Ap
 pData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on Daniella_Lato_CV.pdf (4 pages, 95140 bytes).
+Output written on Daniella_Lato_CV.pdf (4 pages, 94771 bytes).
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)
  17 named destinations out of 1000 (max. 500000)
