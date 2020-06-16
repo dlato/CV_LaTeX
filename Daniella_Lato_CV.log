@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.24)  9 JUN 2020 20:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.24)  15 JUN 2020 20:08
 entering extended mode
 **./Daniella_Lato_CV.tex
 (Daniella_Lato_CV.tex
@@ -913,6 +913,10 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              This could result in several error messages on input li
 ne 274.
 
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
 Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
@@ -945,23 +949,23 @@ Class scrartcl Warning: Incompatible usage of \@ssect detected.
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 367.
+ne 366.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 417.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 416.
 [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 417.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 416.
  (Daniella_Lato_CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 417.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 417.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 416.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 416.
 Package rerunfilecheck Info: File `Daniella_Lato_CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13665 strings out of 481511
- 235663 string characters out of 2911892
+ 13680 strings out of 481511
+ 235819 string characters out of 2911892
  672232 words of memory out of 3000000
- 28639 multiletter control sequences out of 15000+200000
- 548270 words of font info for 81 fonts, out of 3000000 for 9000
+ 28644 multiletter control sequences out of 15000+200000
+ 548642 words of font info for 86 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,12n,66p,10168b,393s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\synch\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
@@ -971,11 +975,13 @@ ase/8r.enc}<C:/Users/synch/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
 /type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/synch/AppData/Local/Programs/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/synch/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/synch/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/s
-ynch/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Daniella_Lato_CV.pdf (4 pages, 103094 bytes).
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/U
+sers/synch/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pf
+b><C:/Users/synch/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uh
+vro8a.pfb>
+Output written on Daniella_Lato_CV.pdf (4 pages, 112804 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
+ 82 PDF objects out of 1000 (max. 8388607)
  18 named destinations out of 1000 (max. 500000)
- 17921 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 18433 words of extra memory for PDF output out of 20736 (max. 10000000)
 
