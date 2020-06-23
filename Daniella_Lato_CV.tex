@@ -126,6 +126,27 @@
 		\noindent \textit{#3} \par					% Company
 		\noindent\hangindent=2em\hangafter=0 \small #4 	% Description
 		\normalsize \par}
+\newcommand{\WorkEntryB}[3]{						% Same as \EducationEntry
+	\noindent \textbf{#1} \hfill 					% Jobname
+	\colorbox{White}{\color{Black}#2} \par		% Duration
+	\noindent \textit{#3} \par					% Company
+	\noindent\hangindent=2em\hangafter=0 \small  	% Description
+	\normalsize \par}
+\newcommand{\WorkEntryC}[2]{						% Same as \EducationEntry
+	\noindent \textbf{#1} \hfill 					% Jobname
+	\colorbox{White}{\color{Black}#2} \par		% Duration
+	\noindent \par					% Company
+	\noindent\hangindent=2em\hangafter=0 \small  	% Description
+	\normalsize \par}
+\newcommand{\WorkEntryD}[3]{						% Same as \EducationEntry
+	\indent \textbf{#1} \hfill 					% Jobname
+	\colorbox{White}{\color{Black}#2} \par		% Duration
+	\hangindent=2em\hangafter=0 \small  #3 \par
+    \normalsize }		
+\newcommand{\WorkEntryE}[2]{						% Same as \EducationEntry
+	\indent \indent \textbf{#1} \hfill 					% Jobname
+	\colorbox{White}{\color{Black}#2} \par}		
+	
 \newcommand{\RefEntry}[7]{						% Same as \EducationEntry
 		\noindent \textbf{#1} \par 					% Jobname
 		\noindent \textit{#2} \par	% Duration
@@ -135,6 +156,7 @@
 		\noindent \textit{#6} \par
 		\noindent \textit{#7} \par
 		}
+
 
 \newcommand{\ServiceEntry}[2]{					% Same as \EducationEntry
 		\noindent \textit{#1} \par					% Company
@@ -299,20 +321,20 @@ Thesis Title: Spatial Patterns of Molecular Trends in Bacterial Genomes}
 %\WorkEntry{Teaching Assistant}{2014}{Department of Mathematics and Statistics, McMaster University}{Differential Equations}
 
 \NewPart{Select Honors and Awards}{}
-\WorkEntry{Dr. Edna Guest Award for Graduating Athlete of the Year}{2020}{Annual Athletic Awards, McMaster University}{\textdollar{1,000 CAD}}
+\WorkEntryB{Dr. Edna Guest Award for Graduating Athlete of the Year}{2020}{Annual Athletic Awards, McMaster University}
 %\WorkEntry{Graduate Scholarship}{McMaster University}{\textdollar{691CAD} \textit{per annum}}{2015 - 2020}
-\WorkEntry{All Canadian Award for Outstanding Average \\ While on a Competitive University Sports Team}{2012-2020}{Canadian University Synchronized Swimming League (CUSSL)}{}
+\WorkEntryB{All Canadian Award for Outstanding Average \\ While on a Competitive University Sports Team}{2012-2020}{Canadian University Synchronized Swimming League (CUSSL)}
 %\WorkEntry{McMaster Marauder Scholar}{2012 - 2020}{McMaster University Athletics Department}{}
-\WorkEntry{Therese Quigley Award of Excellence for \\ Graduate Student Leadership in Athletics}{2018-2019}{Graduate Student Recognition Awards, McMaster University}{\textdollar{200 CAD}}
+\WorkEntryB{Therese Quigley Award of Excellence for \\ Graduate Student Leadership in Athletics}{2018-2019}{Graduate Student Recognition Awards, McMaster University}
 %\WorkEntry{Biology Travel Scholarship}{2018-2019}{Department of Biology, McMaster University}{\textdollar{500 CAD}}
 %\WorkEntry{GSA Travel Assistance Award}{2019}{School of Graduate Studies, McMaster University}{\textdollar{500 CAD}}
 %\WorkEntry{Biology Travel Scholarship}{Department of Biology, McMaster University}{\textdollar{500CAD}}{2018}
 %\WorkEntry{Therese Quigley Award of Excellence for Graduate Student Leadership in Athletics}{Graduate Student Recognition Awards, McMaster University}{\textdollar{200CAD}}{2018}
 % \WorkEntry{Evolution and Comparative Genomics Subsidy}{2018}{International Society for Computational Biology}{\textdollar{475 USD}}
-\WorkEntry{Monica Scarabello Memorial Bursary}{2016 and 2018}{McMaster University}{\textdollar{1,000 CAD}}
-\WorkEntry{RTO/ERO Scholarship}{2017}{Retired Teachers of Ontario (RTO)}{\textdollar{1,500 CAD}}
+\WorkEntryB{Monica Scarabello Memorial Bursary}{2016 and 2018}{McMaster University}
+\WorkEntryB{RTO/ERO Scholarship}{2017}{Retired Teachers of Ontario (RTO)}
 %\WorkEntry{Monica Scarabello Memorial Bursary}{2016}{McMaster University}{\textdollar{500 CAD}}
-\WorkEntry{Robert John Morris Graduate Studies Bursary}{2016}{McMaster University}{\textdollar{1,500 CAD}}
+\WorkEntryB{Robert John Morris Graduate Studies Bursary}{2016}{McMaster University}
 %\WorkEntry{McMaster Synchronized Swimming Club VIP}{2016}{McMaster University}{}
 %\WorkEntry{Graduate Entrance Scholarship}{McMaster University}{\textdollar{1,500CAD}}{2015}
 %\WorkEntry{Dr. Joachim Sparkuhl Undergraduate Research Award \\ in Genomics, Genetics and Other Biological Sciences}{2014}{McMaster University}{\textdollar{7,680 CAD}}
@@ -320,12 +342,33 @@ Thesis Title: Spatial Patterns of Molecular Trends in Bacterial Genomes}
 %\WorkEntry{Undergraduate Entrance Scholarship}{McMaster University}{\textdollar{750CAD}}{2011}
 
 
-\NewPart{Conferences/Panel Discussions}
-\WorkEntry{Poster Presentation}{Manchester, UK 2019}{Mutation Rate Evolution}{Society for Molecular Biology and Evolution Conference}
-\WorkEntry{Oral Presentation}{McMaster University, Hamilton, ON 2019}{Evolutionary Biology / Molecular Evolution}{Ontario Ecology, Ethology, and Evolution Colloquium}
-\WorkEntry{Oral Presentation}{Chicago, IL 2018}{Evolution and Comparative Genomics COSI}{Intelligent Systems for Molecular Biology Conference}
-\WorkEntry{Panellist}{EngSci Girl}{McMaster University, Hamilton, ON 2018}{Women In Science and Engineering (WISE)}
+%\NewPart{Select Honors and Awards}{}
+%\WorkEntry{Dr. Edna Guest Award for Graduating Athlete of the Year}{2020}{Annual Athletic Awards, McMaster University}{\textdollar{1,000 CAD}}
+%%\WorkEntry{Graduate Scholarship}{McMaster University}{\textdollar{691CAD} \textit{per annum}}{2015 - 2020}
+%\WorkEntry{All Canadian Award for Outstanding Average \\ While on a Competitive University Sports Team}{2012-2020}{Canadian University Synchronized Swimming League (CUSSL)}{}
+%%\WorkEntry{McMaster Marauder Scholar}{2012 - 2020}{McMaster University Athletics Department}{}
+%\WorkEntry{Therese Quigley Award of Excellence for \\ Graduate Student Leadership in Athletics}{2018-2019}{Graduate Student Recognition Awards, McMaster University}{\textdollar{200 CAD}}
+%%\WorkEntry{Biology Travel Scholarship}{2018-2019}{Department of Biology, McMaster University}{\textdollar{500 CAD}}
+%%\WorkEntry{GSA Travel Assistance Award}{2019}{School of Graduate Studies, McMaster University}{\textdollar{500 CAD}}
+%%\WorkEntry{Biology Travel Scholarship}{Department of Biology, McMaster University}{\textdollar{500CAD}}{2018}
+%%\WorkEntry{Therese Quigley Award of Excellence for Graduate Student Leadership in Athletics}{Graduate Student Recognition Awards, McMaster University}{\textdollar{200CAD}}{2018}
+%% \WorkEntry{Evolution and Comparative Genomics Subsidy}{2018}{International Society for Computational Biology}{\textdollar{475 USD}}
+%\WorkEntry{Monica Scarabello Memorial Bursary}{2016 and 2018}{McMaster University}{\textdollar{1,000 CAD}}
+%\WorkEntry{RTO/ERO Scholarship}{2017}{Retired Teachers of Ontario (RTO)}{\textdollar{1,500 CAD}}
+%%\WorkEntry{Monica Scarabello Memorial Bursary}{2016}{McMaster University}{\textdollar{500 CAD}}
+%\WorkEntry{Robert John Morris Graduate Studies Bursary}{2016}{McMaster University}{\textdollar{1,500 CAD}}
+%\WorkEntry{McMaster Synchronized Swimming Club VIP}{2016}{McMaster University}{}
+%\WorkEntry{Graduate Entrance Scholarship}{McMaster University}{\textdollar{1,500CAD}}{2015}
+%\WorkEntry{Dr. Joachim Sparkuhl Undergraduate Research Award \\ in Genomics, Genetics and Other Biological Sciences}{2014}{McMaster University}{\textdollar{7,680 CAD}}
+%\WorkEntry{Dean's Honor List}{McMaster University}{}{2012 - 2015}
+%\WorkEntry{Undergraduate Entrance Scholarship}{McMaster University}{\textdollar{750CAD}}{2011}
 
+
+%\NewPart{Conferences/Panel Discussions}
+%\WorkEntry{Poster Presentation}{Manchester, UK 2019}{Mutation Rate Evolution}{Society for Molecular Biology and Evolution Conference}
+%\WorkEntry{Oral Presentation}{McMaster University, Hamilton, ON 2019}{Evolutionary Biology / Molecular Evolution}{Ontario Ecology, Ethology, and Evolution Colloquium}
+%\WorkEntry{Oral Presentation}{Chicago, IL 2018}{Evolution and Comparative Genomics COSI}{Intelligent Systems for Molecular Biology Conference}
+%\WorkEntry{Panellist}{EngSci Girl}{McMaster University, Hamilton, ON 2018}{Women In Science and Engineering (WISE)}
 
 %\NewPart{Peer review}{}
 %Heredity\\
@@ -368,13 +411,19 @@ Thesis Title: Spatial Patterns of Molecular Trends in Bacterial Genomes}
 %%%%%%% Volunteering
 \NewPart{Select Volunteer Experience}{}
 \WorkEntry{Let's Talk Science}{2017 - Present}{McMaster University, Let's Talk Science, Hamilton}{Educate students aged 4-18 in science, technology, engineering, and math (STEM) by delivering interactive experiments and activities accessibly to the Hamilton youth.}
-\WorkEntry{Novice Program Coach}{2019 - 2020}{McMaster Synchronized Swimming Club, McMaster University, Hamilton}{Assist swimmers in establishing individual goals, prepare them for competition and foster a positive environment by developing and facilitating practice plans, workouts and comprehensive competition packages for a range of swimming abilities, including those who are new to the sport. The team is ranked 2nd in Eastern Canada and 6th Nationally.}
+\WorkEntryB{McMaster Synchronized Swimming Team}{2014-Present}{McMaster University, Hamilton}
+	\WorkEntryD{Novice Program Coach}{2019 - 2020}{
+		\noindent Assist swimmers in establishing individual goals, prepare them for competition and foster a positive environment by developing and facilitating practice plans, workouts and comprehensive competition packages for a range of swimming abilities, including those who are new to the sport. The team is ranked 2nd in Eastern Canada and 6th Nationally.}
+	\WorkEntryD{Vice President}{2014 - 2015, 2018 - 2019}{
+		\noindent Assist and advise President on organizing competition registration, travel and accommodations, practices, uniforms, and participation fees by researching and completing administrative tasks.}
+	\WorkEntryD{President}{2015 - 2018}{
+				\noindent Unassisted responsibility for 84 competitive athletes and 8 coaches resulting in a successful and healthy 4 years as an varsity organization which can be seen by the steady registration rate and over 20 medals and podium finishes. This was implemented through the organization of competition registration, travel and accommodations, practices, uniforms, and club budget.}
+	\WorkEntryD{Meet Manager}{2016}{
+		\noindent Organized and executed the Canadian University Synchronized Swimming League National Competition at McMaster University, with a total of 22 Universities and 450 athletes and coaches from all over Canada in attendance.}
+
 \WorkEntry{SNAP (Special Needs Assistance Program)}{2016 - 2019}{McMaster University, Hamilton}{Assist community members who have cognitive and/or physical disabilities complete physical exercise by providing physical assistance, personalized workout plans, and emotional support which resulted in a 77\% increase in gross motor capabilities.}
-\WorkEntry{Vice President}{2014 - 2015, 2018 - 2019}{McMaster Synchronized Swimming Club, McMaster University, Hamilton}{Assist and advise President on organizing competition registration, travel and accommodations, practices, uniforms, and participation fees by researching and completing administrative tasks.}
 \WorkEntry{Judge for Biology Undergraduate Symposium (BUS)}{2017 - 2018}{Department of Biology, McMaster University, Hamilton, ON}{Critically judge final year Theses and Projects of undergraduate STEM students by reviewing the literature and asking thought provoking questions of the participants, analyzing a total of 187 studies.}
-\WorkEntry{President}{2015 - 2018}{McMaster Synchronized Swimming Club, McMaster University, Hamilton}{Unassisted responsibility for 84 competitive athletes and 8 coaches resulting in a successful and healthy 4 years as an varsity organization which can be seen by the steady registration rate and over 20 medals and podium finishes. This was implemented through the organization of competition registration, travel and accommodations, practices, uniforms, and club budget.}
-\WorkEntry{BGSS (Biology Graduate Student Society)}{2016 - 2017}{Department of Biology, McMaster University, Hamilton}{Assisted with planing, organizing, and running 15 social and academic events for the Biology students at McMaster.}
-\WorkEntry{Meet Manager}{2016}{McMaster Synchronized Swimming Club, McMaster University, Hamilton}{Organized and executed the Canadian University Synchronized Swimming League National Competition at McMaster University, with a total of 22 Universities and 450 athletes and coaches from all over Canada in attendance.}
+%\WorkEntry{BGSS (Biology Graduate Student Society)}{2016 - 2017}{Department of Biology, McMaster University, Hamilton}{Assisted with planing, organizing, and running 15 social and academic events for the Biology students at McMaster.}
 %\WorkEntry{McMaster Arts for Children}{2014 - 2015}{McMaster University, Hamilton}{Promote the arts and inspire creativity among children by instructing arts and crafts programs that teach appreciation for and expose children to various aspects of the arts in the Hamilton Community.}
 %\WorkEntry{McMaster Athletes Care}{2013 - 2014}{McMaster Synchronized Swimming Club, McMaster University, Hamilton}{Create a space for vulnerable Hamilton youth to engage in sport activities by mentally supporting participants and focusing on local community development.}
 
@@ -382,16 +431,30 @@ Thesis Title: Spatial Patterns of Molecular Trends in Bacterial Genomes}
 %%%% Work experience
 %%%% ------------------------------------------------------------
 \NewPart{Other Work Experience}{}
-\WorkEntry{Tour Guide}{2017 - Present}{McMaster University, Hamilton}{}
-\WorkEntry{Teaching Assistant}{2015-Present}{Department of Biology, McMaster University}{Introduction to Bioinformatics}
-\WorkEntry{Teaching Assistant}{2015-Present}{Department of Biology, McMaster University}{Genetics}
-\WorkEntry{Guest Lecture}{2018}{Department of Biology, McMaster University}{Molecular Evolution}
-\WorkEntry{Workshop Leader}{2017}{Department of Biology, McMaster University}{High School Plant Molecular Biology Lab Workshop}
-\WorkEntry{Software Carpentry Leader}{2017}{McMaster University, Hamilton}{Command line, \texttt{Git}, and \texttt{R}}
-\WorkEntry{Teaching Assistant}{2014}{Department of Mathematics and Statistics, McMaster University}{Differential Equations}
+\WorkEntryB{Tour Guide}{2017 - Present}{McMaster University, Hamilton}
+%\noindent{\textbf{Teaching Assistant}}
+\WorkEntryB{Teaching Assistant}{2014-Present}{McMaster University, Hamilton}
+\indent Department of Biology
+
+	\WorkEntryE{Introduction to Bioinformatics}{2015-Present}
+	\WorkEntryE{Genetics}{2015-Present}
+	\indent Department of Mathematics and Statistics
+	
+	\WorkEntryE{Differential Equations}{2014}
+\WorkEntryB{Guest Lecture: Molecular Evolution}{2018}{Department of Biology, McMaster University, Hamilton}
+\WorkEntryB{Workshop Leader}{2017}{McMaster University, Hamilton}
+	\WorkEntryD{High School Plant Molecular Biology Lab Workshop}{2017}{Department of Biology}
+	\WorkEntryD{Software Carpentry Leader}{2017}{Command line, \texttt{Git}, and \texttt{R}}
 %\WorkEntry{Information Service Attendant}{May 2015 - Aug 2016}{Recreation, City of Markham, Markham}{}
 %\WorkEntry{Education Employee}{Jun 2015 - Aug 2016}{Education, Toronto Zoo, Scarborough}{}
 %\WorkEntry{Camp Counsellor and Supervisor}{Jun 2013 - Aug 2013}{Recreation, City of Markham, Markham}{}
+
+
+\NewPart{Conferences/Panel Discussions}
+\WorkEntryB{Poster Presentation: Mutation Rate Evolution}{Manchester, UK 2019}{Society for Molecular Biology and Evolution Conference}
+\WorkEntryB{Oral Presentation: Evolutionary Biology Molecular Evolution}{Hamilton, ON 2019}{McMaster University,  Ontario Ecology, Ethology, and Evolution Colloquium}
+\WorkEntryB{Oral Presentation: Evolution and Comparative Genomics COSI}{Chicago, IL 2018}{Intelligent Systems for Molecular Biology Conference}
+\WorkEntryB{Panellist: EngSci Girl}{Hamilton, ON 2018}{McMaster University, Women In Science and Engineering (WISE)}
 
 
 
