@@ -146,7 +146,14 @@
 \newcommand{\WorkEntryE}[2]{						% Same as \EducationEntry
 	\indent \indent \textbf{#1} \hfill 					% Jobname
 	\colorbox{White}{\color{Black}#2} \par}		
-	
+\newcommand{\WorkEntryF}[2]{						% Same as \EducationEntry
+	 \textbf{#1} \hfill 					% Jobname
+	\colorbox{White}{\color{Black}#2} \par}		
+\newcommand{\WorkEntryG}[3]{						% Same as \EducationEntry
+	\indent \indent \textbf{#1} \hfill 					% Jobname
+	\colorbox{White}{\color{Black}#2} \par		% Duration
+	\hangindent=5em\hangafter=0 \small  #3 \par
+	\normalsize }			
 \newcommand{\RefEntry}[7]{						% Same as \EducationEntry
 		\noindent \textbf{#1} \par 					% Jobname
 		\noindent \textit{#2} \par	% Duration
@@ -278,22 +285,23 @@ Thesis Title: Spatial Patterns of Molecular Trends in Bacterial Genomes}
 		\item Communicating scientific research to field specific and general audiences of up to 230 people at 4 international conferences, culminating in overwhelming positive presentation feedback.
 		\item Awarded National and local funding for research by editing and writing grants outlining the proposed and completed research on molecular evolution.
 \end{itemize}}
-%\WorkEntryE{Research Assistant}{2012-2014}
+\WorkEntryF{Research Assistant}{2012-2013}
 %	\WorkEntryD{Department of Biology, McMaster University, Hamilton, ON}{2014}{
 %		\begin{itemize}
 %		\item Comprehensive training in bioinformatic software and high performance computing such as \texttt{Python}, \texttt{R}, and Unix command line. 
 %		\item Conducted computational research on the molecular evolution of mutations in the bacteria \textit{Sinorhizobium} using sequence analysis and phylogenetics.
 %		\item Presented research, methods, and results to 250 people at a Biology Symposium at McMaster University, 
 %		\end{itemize}}
-%	\WorkEntryD{Surgical Oncology, University of Toronto, Toronto, ON}{2013}{
-%		\begin{itemize}
-%		\item Completed extensive clinical/health data and literature reviews in the surgical oncology field.
-%		\end{itemize}}
-%	\sloppy\WorkEntryD{Motherisk, The Hospital for Sick Children, Toronto, ON}{2012}{
-%		\begin{itemize}
-%		\item Acquisition and analysis of clinical/health administrative data from patient medical charts, datasets, and surveys to determine the impacts of maternal genetic testing and adverse infant effects resulting in a publication \cite{More:17}.
-%
-%		\end{itemize}}
+	\WorkEntryG{Surgical Oncology, University of Toronto, Toronto, ON}{2013}{
+		\begin{itemize}
+			\setlength{\itemindent}{0.2in}
+		\item Completed extensive clinical/health data and literature reviews in the surgical oncology field.
+		\end{itemize}}
+	\sloppy\WorkEntryG{Motherisk, The Hospital for Sick Children, Toronto, ON}{2012}{
+		\begin{itemize}
+				\setlength{\itemindent}{0.2in}
+		\item Acquisition and analysis of clinical/health administrative data from Primary Care Electronic Medical Record, datasets, and surveys to determine the impacts of maternal genetic testing and adverse infant effects resulting in a publication \cite{More:17}.
+		\end{itemize}}
 
 %\NewPart{Professional Experience}{}
 %
