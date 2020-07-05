@@ -1,9 +1,14 @@
 \begin{thebibliography}{}
 
-\bibitem[\protect\astroncite{Lato and Golding}{2020}]{Lato:20}
-Lato, D.~F. and Golding, G.~B. (2020).
+\bibitem[\protect\astroncite{Lato and Golding}{2020a}]{Lat:20}
+Lato, D.~F. and Golding, G.~B. (2020a).
 \newblock {Spatial Patterns of Gene Expression in Bacterial Genomes}.
 \newblock {\em J Mol Evol}.
+
+\bibitem[\protect\astroncite{Lato and Golding}{2020b}]{Lato:20}
+Lato, D.~F. and Golding, G.~B. (2020b).
+\newblock {The Location of Substitutions and Bacterial Genome Arrangements}.
+\newblock {\em In Review: Genome Biol Evol}.
 
 \bibitem[\protect\astroncite{Moretti et~al.}{2017}]{More:17}
 Moretti, M.~E., Lato, D.~F., Berger, H., Koren, G., Ito, S., and Ungar, W.~J.
