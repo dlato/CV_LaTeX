@@ -1,14 +1,20 @@
 \begin{thebibliography}{}
 
-\bibitem[\protect\astroncite{Lato and Golding}{2020a}]{Lat:20}
+\bibitem[\protect\astroncite{Lato and Golding}{2020a}]{LatoD:20}
 Lato, D.~F. and Golding, G.~B. (2020a).
-\newblock {Spatial Patterns of Gene Expression in Bacterial Genomes}.
+\newblock {Genomic Inversions and Their Impact on \textit{Escherichia coli}
+  Gene Expression}.
+\newblock {\em In Prep: Genome Biol Evol}.
+
+\bibitem[\protect\astroncite{Lato and Golding}{2020b}]{Lat:20}
+Lato, D.~F. and Golding, G.~B. (2020b).
+\newblock {Spatial patterns of gene expression in bacterial genomes}.
 \newblock {\em J Mol Evol}, 88:510--520.
 
-\bibitem[\protect\astroncite{Lato and Golding}{2020b}]{Lato:20}
-Lato, D.~F. and Golding, G.~B. (2020b).
+\bibitem[\protect\astroncite{Lato and Golding}{2020c}]{Lato:20}
+Lato, D.~F. and Golding, G.~B. (2020c).
 \newblock {The Location of Substitutions and Bacterial Genome Arrangements}.
-\newblock {\em In Review: Genome Biol Evol}.
+\newblock {\em Recently Submitted: Genome Biol Evol}.
 
 \bibitem[\protect\astroncite{Moretti et~al.}{2017}]{More:17}
 Moretti, M.~E., Lato, D.~F., Berger, H., Koren, G., Ito, S., and Ungar, W.~J.
