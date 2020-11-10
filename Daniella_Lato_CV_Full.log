@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.24)  17 OCT 2020 11:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.2.24)  2 NOV 2020 20:24
 entering extended mode
 **./Daniella_Lato_CV_Full.tex
 (Daniella_Lato_CV_Full.tex
@@ -946,11 +946,11 @@ Package rerunfilecheck Info: File `Daniella_Lato_CV_Full.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13698 strings out of 481511
- 236144 string characters out of 2911892
+ 13700 strings out of 481511
+ 236158 string characters out of 2911892
  672588 words of memory out of 3000000
  28659 multiletter control sequences out of 15000+200000
- 548807 words of font info for 87 fonts, out of 3000000 for 9000
+ 548858 words of font info for 88 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,12n,64p,10173b,327s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\synch\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
@@ -964,7 +964,7 @@ pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/U
 sers/synch/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pf
 b><C:/Users/synch/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uh
 vro8a.pfb>
-Output written on Daniella_Lato_CV_Full.pdf (5 pages, 119859 bytes).
+Output written on Daniella_Lato_CV_Full.pdf (5 pages, 119877 bytes).
 PDF statistics:
  91 PDF objects out of 1000 (max. 8388607)
  19 named destinations out of 1000 (max. 500000)
